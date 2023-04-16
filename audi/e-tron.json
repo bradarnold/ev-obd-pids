@@ -26,13 +26,13 @@
   "voltage": {
     "equation": "Int16(A,B)/10",
     "minValue": "200",
-    "maxValue": "400",
+    "maxValue": "500",
     "type": "Number",
     "command": "03221E3B55555555",
     "ecu": "7E5"
   },
   "current": {
-    "equation": "-1*(Int16(A,B)-150000)/100",
+    "equation": "-1*(Int24(A,B,C)-150000)/100",
     "minValue": "-200",
     "maxValue": "200",
     "type": "Number",
