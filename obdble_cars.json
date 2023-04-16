@@ -3,6 +3,10 @@
     "supports": ["calibration", "driving", "charging"],
     "pids": "eGolf"
   },
+  "audi:e-tron:*": {
+    "supports": ["calibration", "driving", "charging"],
+    "pids": "e-tron"
+  },
   "peugeot:etraveler:*": {
     "supports": ["calibration", "driving", "charging"],
     "pids": "PSA"
